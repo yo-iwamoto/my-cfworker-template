@@ -1,8 +1,12 @@
-```
-npm install
-npm run dev
-```
+# my-cfworker-template
 
-```
-npm run deploy
+```bash
+# install
+bun i
+
+# dev
+bun run dev
+
+# deploy
+bun run deploy
 ```
