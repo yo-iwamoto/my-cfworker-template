@@ -1,2 +1,8 @@
 name = "my-cfworker-template"
 compatibility_date = "2023-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "my-cfworker-template"
+database_id = "5214beaa-ad74-48ea-a506-27da4b57db9e"
+migrations_dir = "db/migrations"

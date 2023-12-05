@@ -5,8 +5,9 @@
     "url": "https://github.com/you-5805"
   },
   "scripts": {
-    "dev": "wrangler dev src/index.ts",
-    "deploy": "wrangler deploy --minify src/index.ts"
+    "dev": "wrangler dev src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.tsx",
+    "d1:migrate": "wrangler d1 migrations apply my-cfworker-template"
   },
   "dependencies": {
     "hono": "3.11.2"
