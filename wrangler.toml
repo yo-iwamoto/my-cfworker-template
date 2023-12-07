@@ -6,3 +6,8 @@ binding = "DB"
 database_name = "my-cfworker-template"
 database_id = "5214beaa-ad74-48ea-a506-27da4b57db9e"
 migrations_dir = "db/migrations"
+
+[[r2_buckets]]
+binding = 'BUCKET'
+bucket_name="tmp"
+preview_bucket_name = 'my-cfworker-template'
